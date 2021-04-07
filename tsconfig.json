@@ -1,0 +1,23 @@
+{
+  "extends": "@quasar/app/tsconfig-preset",
+  "compilerOptions": {
+    "types": [
+      "googlemaps"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "components/*": [
+        "src/components/*"
+      ],
+      "boot/*": [
+        "src/boot/*"
+      ],
+      "pages/*": [
+        "src/pages/*"
+      ],
+      "css/*": [
+        "src/css/*"
+      ]
+    }
+  }
+}
